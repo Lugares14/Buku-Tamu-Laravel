@@ -85,9 +85,7 @@ Setelah berhasil meng-clone repository dan meng-install dependencies, lakukan se
    - Aktifkan **2-Step Verification** (pakai SMS atau Google Authenticator).  
 
 2. **Buat App Password**  
-   - Masuk ke [Google App Passwords](https://myaccount.google.com/apppasswords)  
-   - Pilih *App* → **Mail**, *Device* → **Other (Custom)**, lalu beri nama (contoh: Laravel).  
-   - Klik **Generate** → nanti akan muncul sandi 16 digit.  
+   - Masuk ke [Google App Passwords](https://myaccount.google.com/apppasswords)   
 
    **Buat kata sandi aplikasi**  
    ![Buat Sandi](docs/buat-sandi-app.png)  
