@@ -3,4 +3,11 @@
 # 📖 Buku Tamu Online (Laravel + Tailwind)
 
 Aplikasi **Buku Tamu Online** berbasis Laravel dengan TailwindCSS.  
-Membantu pengelolaan tamu dengan tampilan modern, verifikasi email, serta export laporan ke PDF.
+
+✨ **Fitur utama**:
+- Foto tamu via Webcam
+- Registrasi + verifikasi email
+- Reset password lewat email
+- Export data tamu ke PDF
+- Dashboard Modern 
+
