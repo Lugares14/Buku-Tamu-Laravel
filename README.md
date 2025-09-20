@@ -78,4 +78,25 @@ Website **Buku Tamu** berbasis Laravel dengan fitur webcam foto tamu, registrasi
 
 Setelah berhasil meng-clone repository dan meng-install dependencies, lakukan setup berikut:
 
+## Buat App Password Agar verify email dan reset password berfungsi
+1. Aktifkan 2-Step Verification (2FA)
+- Masuk ke
+  ```bash
+  https://myaccount.google.com/security
+- Aktifkan 2-Step Verification (pakai SMS atau Google Authenticator).
+
+2. Buat App Password
+- Masuk ke 
+    ```bash
+    https://myaccount.google.com/apppasswords
+- Buat kata sandi aplikasi
+![Buat Sandi](docs/buat-sandi-app.png)
+
+- Nanti akan dapat password 16 digit
+![Kata Sandi](docs/buat-sandi-app.png)
+
+- Isi .env seperti ini 
+![env email](docs/env-email.png)
+
+
 
