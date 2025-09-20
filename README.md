@@ -9,5 +9,16 @@ Website **Buku Tamu** berbasis Laravel dengan fitur webcam foto tamu, registrasi
 - Registrasi + verifikasi email
 - Reset password lewat email
 - Export data tamu ke PDF
-- Dashboard Modern 
+- Dashboard Modern
+
+
+## 📸 Preview
+
+![Form Tamu](docs/form-tamu.png)
+
+![Dashboard](docs/dashboard.png)
+
+![Daftar Tamu](docs/daftar-tamu.png)
+
+
 
