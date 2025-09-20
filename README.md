@@ -74,3 +74,8 @@ Website **Buku Tamu** berbasis Laravel dengan fitur webcam foto tamu, registrasi
     Server running on [http://127.0.0.1:8000].
 
 
+## 🔧 Setup Project
+
+Setelah berhasil meng-clone repository dan meng-install dependencies, lakukan setup berikut:
+
+
