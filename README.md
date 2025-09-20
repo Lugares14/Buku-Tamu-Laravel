@@ -107,3 +107,17 @@ Setelah berhasil meng-clone repository dan meng-install dependencies, lakukan se
 
 
 
+### 🎴 Jika foto di dashboard/pdf tidak tampil 
+![Daftar Tamu](docs/daftar-tamu.png)
+
+**Lakukan ini -> ** 
+
+1. **Symlink Storage**
+    ```bash
+    php artisan storage:link
+
+
+
+
+
+
