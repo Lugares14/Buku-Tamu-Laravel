@@ -113,8 +113,10 @@ Setelah berhasil meng-clone repository dan meng-install dependencies, lakukan se
 **Lakukan ini ->**
 
 1. **Symlink Storage**
+- Biar foto bisa diakses di browser:
     ```bash
     php artisan storage:link
+    ```
 
 
 
