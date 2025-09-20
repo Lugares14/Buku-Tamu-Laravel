@@ -93,7 +93,7 @@ Setelah berhasil meng-clone repository dan meng-install dependencies, lakukan se
    ![Buat Sandi](docs/buat-sandi-app.png)  
 
    **Nanti akan dapat sandi 16 digit**  
-   ![Kata Sandi](docs/kata-sandi-16.png)  
+   ![Kata Sandi](docs/kata-sandi-app.png)  
 
 3. **Isi `.env` seperti ini**  
 
@@ -102,7 +102,7 @@ Setelah berhasil meng-clone repository dan meng-install dependencies, lakukan se
    MAIL_HOST=smtp.gmail.com
    MAIL_PORT=587
    MAIL_USERNAME=your_gmail@gmail.com
-   MAIL_PASSWORD=isi_dengan_app_password_16_digit
+   MAIL_PASSWORD=abcdefghijklmnop #isi sandi tadi tanpa space
    MAIL_ENCRYPTION=tls
    MAIL_FROM_ADDRESS=your_gmail@gmail.com
    MAIL_FROM_NAME="Buku Tamu Online"
