@@ -105,7 +105,7 @@ Setelah berhasil meng-clone repository dan meng-install dependencies, lakukan se
    MAIL_PASSWORD=abcdefghijklmnop #isi sandi tadi tanpa space
    MAIL_ENCRYPTION=tls
    MAIL_FROM_ADDRESS=your_gmail@gmail.com
-   MAIL_FROM_NAME="Buku Tamu Online"
+   MAIL_FROM_NAME="Buku Tamu"
 
 
 
