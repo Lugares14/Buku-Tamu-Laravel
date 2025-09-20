@@ -89,6 +89,7 @@ Setelah berhasil meng-clone repository dan meng-install dependencies, lakukan se
 - Masuk ke 
     ```bash
     https://myaccount.google.com/apppasswords
+    ```
 - Buat kata sandi aplikasi
 ![Buat Sandi](docs/buat-sandi-app.png)
 
