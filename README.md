@@ -29,8 +29,10 @@ Website **Buku Tamu** berbasis Laravel dengan fitur webcam foto tamu, registrasi
 ## ⚙️ Requirements
 - PHP >= 8.1
 - Composer
-- Node.js & NPM
-- SQLite
+- Node.js & NPM 
+- Database:
+  - SQLite (default)
+  - MySQL/PostgreSQL (opsional, jika ingin scale up)
 
 ## 🚀 Installation
 
@@ -39,5 +41,36 @@ Website **Buku Tamu** berbasis Laravel dengan fitur webcam foto tamu, registrasi
    git clone https://github.com/HendraGunadie/Buku-Tamu-Laravel.git
    cd Buku-Tamu-Laravel
 
+2. **Install dependencies PHP**
+   ```bash
+   composer install
+
+3. **Install dependencies JS (Tailwind + Vite)**
+   ```bash
+   npm install
+   ```
+
+   ```bash
+   npm run dev
+
+4. **Copy file .env**
+    ```bash
+    cp .env.example .env
+
+5. **Generate app key**
+    ```bash 
+    php artisan key:generate
+
+6. **Jalankan migrasi**
+   ```bash 
+    php artisan migration
+
+7. **Jalankan server**
+   ```bash
+   php artisan serve
+
+8. **Akses Aplikasi**
+   ```bash
+    Server running on [http://127.0.0.1:8000].
 
 
