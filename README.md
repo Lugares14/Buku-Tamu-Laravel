@@ -93,13 +93,13 @@ Setelah berhasil meng-clone repository dan meng-install dependencies, lakukan se
 
 
     
-- Buat kata sandi aplikasi
+**Buat kata sandi aplikasi**
 ![Buat Sandi](docs/buat-sandi-app.png)
 
-- Nanti akan dapat password 16 digit
+**Nanti akan dapat sandi 16 digit**
 ![Kata Sandi](docs/buat-sandi-app.png)
 
-- Isi .env seperti ini 
+**Isi .env seperti ini**
 ![env email](docs/env-email.png)
 
 
