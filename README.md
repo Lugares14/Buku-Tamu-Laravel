@@ -78,29 +78,34 @@ Website **Buku Tamu** berbasis Laravel dengan fitur webcam foto tamu, registrasi
 
 Setelah berhasil meng-clone repository dan meng-install dependencies, lakukan setup berikut:
 
-## Buat App Password Agar verify email dan reset password berfungsi
-1. Aktifkan 2-Step Verification (2FA)
-- Masuk ke
-  ```bash
-  https://myaccount.google.com/security
-- Aktifkan 2-Step Verification (pakai SMS atau Google Authenticator).
+### 📧 Buat App Password Agar Verify Email & Reset Password Berfungsi
 
-2. Buat App Password
-- Masuk ke 
-    ```bash
-    https://myaccount.google.com/apppasswords
+1. **Aktifkan 2-Step Verification (2FA)**  
+   - Masuk ke [Google Security](https://myaccount.google.com/security)  
+   - Aktifkan **2-Step Verification** (pakai SMS atau Google Authenticator).  
 
+2. **Buat App Password**  
+   - Masuk ke [Google App Passwords](https://myaccount.google.com/apppasswords)  
+   - Pilih *App* → **Mail**, *Device* → **Other (Custom)**, lalu beri nama (contoh: Laravel).  
+   - Klik **Generate** → nanti akan muncul sandi 16 digit.  
 
+   **Buat kata sandi aplikasi**  
+   ![Buat Sandi](docs/buat-sandi-app.png)  
 
-    
-**Buat kata sandi aplikasi**
-![Buat Sandi](docs/buat-sandi-app.png)
+   **Nanti akan dapat sandi 16 digit**  
+   ![Kata Sandi](docs/kata-sandi-16.png)  
 
-**Nanti akan dapat sandi 16 digit**
-![Kata Sandi](docs/buat-sandi-app.png)
+3. **Isi `.env` seperti ini**  
 
-**Isi .env seperti ini**
-![env email](docs/env-email.png)
+   ```env
+   MAIL_MAILER=smtp
+   MAIL_HOST=smtp.gmail.com
+   MAIL_PORT=587
+   MAIL_USERNAME=your_gmail@gmail.com
+   MAIL_PASSWORD=isi_dengan_app_password_16_digit
+   MAIL_ENCRYPTION=tls
+   MAIL_FROM_ADDRESS=your_gmail@gmail.com
+   MAIL_FROM_NAME="Buku Tamu Online"
 
 
 
