@@ -1,8 +1,8 @@
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=hendragunadie.Buku-Tamu-Laravel)
 
-# 📖 Buku Tamu Online (Laravel + Tailwind)
+# 📖 Buku Tamu (Laravel + Tailwind)
 
-Aplikasi **Buku Tamu Online** berbasis Laravel dengan TailwindCSS.  
+Website **Buku Tamu** berbasis Laravel dengan fitur webcam foto tamu, registrasi & login via email verifikasi, reset password lewat email, dan export data tamu ke PDF. 
 
 ✨ **Fitur utama**:
 - Foto tamu via Webcam
