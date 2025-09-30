@@ -63,7 +63,7 @@ Website **Buku Tamu** berbasis Laravel dengan fitur webcam foto tamu, registrasi
 
 6. **Jalankan migrasi**
    ```bash 
-    php artisan migration
+    php artisan migrate
 
 7. **Jalankan server**
    ```bash
